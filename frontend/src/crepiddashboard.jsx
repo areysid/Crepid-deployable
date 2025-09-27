@@ -31,7 +31,7 @@ export default function CrepidDashboard() {
     formData.append("skills", skillsFile);
 
     try {
-      const res = await fetch("http://localhost:8000/api/upload-csv", {
+      const res = await fetch("https://crepid-deployable.onrender.com/api/upload-csv", {
         method: "POST",
         body: formData,
       });
