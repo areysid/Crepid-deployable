@@ -1,5 +1,5 @@
 fastapi==0.102.0
 uvicorn[standard]==0.23.2
-numpy==1.27.5
-pandas==2.4.4
+numpy==1.26.4  # last version compatible with Python 3.13
+pandas==2.3.3  # last version that builds cleanly on Python 3.13
 python-multipart==0.0.6
