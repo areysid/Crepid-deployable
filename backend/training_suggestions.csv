@@ -1,0 +1,10 @@
+EmpID,Activity,Program,SkillArea,DeficitValue,TrainingCost,ExpectedGain,ROI,Recommendation
+1,Code Review,CR Program,Software,210526.32,3000,105263.16,34.09,Train
+1,Unit Testing,UT Program,Software,105263.16,2500,42105.26,15.84,Train
+1,Documentation,DOC Program,Software,56140.35,2000,16842.11,7.42,Train
+2,Code Review,CR Program,Software,200000.0,3000,100000.0,32.33,Train
+2,Unit Testing,UT Program,Software,111111.11,2500,44444.44,16.78,Train
+2,Documentation,DOC Program,Software,44444.44,2000,13333.33,5.67,Train
+3,Code Review,CR Program,Software,100000.0,3000,50000.0,15.67,Train
+3,Unit Testing,UT Program,Software,150000.0,2500,60000.0,23.0,Train
+3,Documentation,DOC Program,Software,40000.0,2000,12000.0,5.0,Train
