@@ -4,7 +4,10 @@ export const uploadCSV = async (rosterFile, activitiesFile, skillFile) => {
   formData.append("activities", activitiesFile);
   formData.append("skill_library", skillFile);
 
-  const res = await fetch("http://localhost:8000/api/upload-csv", {
+  // https://crepid-deployable-production.up.railway.app/api/upload-csv
+  // http://localhost:8000/api/upload-csv
+
+  const res = await fetch("https://crepid-deployable-production.up.railway.app/api/upload-csv", {
     method: "POST",
     body: formData,
   });
